@@ -1,11 +1,11 @@
-# APT Naming System
+# APT naming framework in JSON
 
-This repository underpins the Troodon PhD research on an XAI-enhanced IPS for Advanced Persistent Threat (APT) detection.  
-It contains:
+A JSON‐Schema–driven taxonomy for standardising Advanced Persistent Threat (APT) names
+in support of the Troodon XAI‐enhanced IPS PhD project.
 
-- **schema/** … the JSON Schema definition (`apt-schema.json`)
-- **examples/** … sample APT entries compliant with the schema
-- **src/** … scripts and tooling (e.g. schema validators)
-- **docs/** … extended documentation and guides
-- **LICENSE**, **CONTRIBUTING.md**, **CITATION.cff** … licensing, contribution guide and citation metadata
+## Contents
+
+- `apt-schema.json` — the JSON Schema definition  
+- `examples/` — sample APT entries that validate against the schema
+
 
