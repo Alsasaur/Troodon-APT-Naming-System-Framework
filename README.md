@@ -5,7 +5,7 @@ in support of the Troodon XAI‐enhanced IPS PhD project.
 
 ## Contents
 
-- `apt-schema.json` — the JSON Schema definition  
-- `examples/` — sample APT entries that validate against the schema
+- **apt-schema.json** — the JSON Schema definition  
+- **examples/** — sample APT entries that validate against the schema
 
 
