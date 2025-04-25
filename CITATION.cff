@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this APT Naming System Framwork, please cite it as below."
+title: "Troodon APT Classification and Naming System"
+authors:
+  - family-names: Tibbit
+    given-names: Alsa
+date-released: 2025-04-25
+version: 1.0
+doi: "10.1234/troodon.aptframework.v1"  # replace with real DOI after Zenodo deposit
+url: "https://github.com/Alsasaur/Troodon-APT-Naming-System-Framework"
