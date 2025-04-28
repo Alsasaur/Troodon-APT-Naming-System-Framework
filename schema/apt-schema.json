@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "APT Naming Entry",
+  "type": "object",
+  "required": ["id", "name", "first_seen", "aliases"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^([A-Z]{2})-APT-\\d{2,}$",
+      "description": "Short APT identifier, e.g. 'RU-APT-28'"
+    },
+    "name": {
+      "type": "string",
+      "description": "Vendor-agnostic group name, e.g. 'Fancy Bear'"
+    },
+    "first_seen": {
+      "type": "string",
+      "format": "date",
+      "description": "Date first observed (YYYY-MM-DD)"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Other community/vendor names"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief summary of the group"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,7 @@
+{
+  "id": "RU-APT-28",
+  "name": "Fancy Bear",
+  "first_seen": "2004-07-01",
+  "aliases": ["APT28", "Sofacy", "STRONTIUM"],
+  "description": "Russian state-sponsored group linked to GRU Unit 26165 targeting political entities."
+}
